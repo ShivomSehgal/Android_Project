@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:theme="@style/Theme.AppCompat"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        style="@style/Theme.AppCompat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="#000000"
+        android:orientation="vertical"
+        android:theme="@style/Theme.AppCompat.DayNight"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/titleId"
+            style="@style/MaterialAlertDialog.Material3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="30dp"
+            android:text="Don't judge each day by the harvest you reap but by the seeds that you plant."
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:theme="@style/Theme.AppCompat.DayNight" />
+
+        <TextView
+            android:id="@+id/authorId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingTop="5dp"
+            android:paddingBottom="60dp"
+            android:text="- Robert Louis Stevenson"
+            android:textColor="#FFFFFF"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/dsa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Data structures and Algorithms"
+            android:textAllCaps="true" />
+
+        <Button
+            android:id="@+id/project"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="android development project"
+            android:textAllCaps="true" />
+
+        <Button
+            android:id="@+id/interviewPrep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Interview Prepration"
+            android:textAllCaps="true" />
+
+        <Button
+            android:id="@+id/coreFundamentals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="core fundamentals"
+            android:textAllCaps="true" />
+
+        <Button
+            android:id="@+id/applications"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="applications"
+            android:textAllCaps="true" />
+
+        <Button
+            android:id="@+id/dailyTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="daily test questions"
+            android:textAllCaps="true" />
+
+        <Button
+            android:id="@+id/dsa8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="performance analysis"
+            android:textAllCaps="true" />
+
+        <Button
+            android:id="@+id/dsa10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="data analysis and visualisation "
+            android:textAllCaps="true" />
+
+        <TextView
+            android:id="@+id/copyrightId"
+            style="@style/Theme.AppCompat.DayNight"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:padding="30dp"
+            android:paddingTop="60dp"
+            android:text="© 2022 Shivom Sehgal. All rights reserved."
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            android:theme="@style/Theme.AppCompat.DayNight" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
